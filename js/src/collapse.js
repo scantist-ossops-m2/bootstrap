@@ -298,7 +298,7 @@ const Collapse = (($) => {
           parent = this._config.parent[0]
         }
       } else {
-        parent = $(this._config.parent)[0]
+        parent = document.querySelector(this._config.parent)
       }
 
       const selector =
